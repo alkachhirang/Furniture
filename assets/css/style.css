@@ -571,6 +571,14 @@
     height: 2px;
 }
 
+.footer_icon {
+    transition: all .3s linear !important;
+}
+
+.footer_icon:hover {
+    transform: scale(1.3) !important;
+}
+
 /*-------------------------Back-to-top----------------------- */
 .backToTopBtn {
     display: none;
@@ -622,6 +630,10 @@
 
 .mw_50 {
     max-width: 50px;
+}
+
+.pointer_event_none {
+    pointer-events: none !important;
 }
 
 @keyframes zoom-in-zoom-out {
