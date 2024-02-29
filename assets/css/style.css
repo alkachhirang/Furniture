@@ -564,6 +564,9 @@
 .z_7{
     z-index: 7 !important;
 }
+.z_index_9{
+    z-index: 9 !important;
+}
 
 .footer_line::after {
     content: "";
