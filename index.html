@@ -18,7 +18,7 @@
     <title>Furniture</title>
 </head>
 
-<body>
+<body class="overflow-hidden">
     <section class="overflow-hidden">
         <!----------------------back-to-top------------------------->
         <div id="backToTopBtn" class="backToTopBtn justify-content-center align-items-center">
@@ -26,7 +26,7 @@
         </div>
         <!------------------------preloader------------------->
         <div id="preloder"
-            class="min-vh-100 w-100 bg_lightblue position-fixed top-0 start-0 d-flex flex-column align-items-center justify-content-center z_index_9 duration_300 pointer_event_none">
+            class="min-vh-100 w-100 bg_lightblue position-fixed top-0 start-0 d-flex flex-column align-items-center justify-content-center z_index_9 duration_300">
             <img src="./assets/css/images/png/logo-img.png" alt="logo-img" class="mw_50 zoom_in_zoom_out mb-3">
             <h2 class="ff_roboto fw-normal fs_28 text-white">FURNITURE</h2>
         </div>
@@ -48,13 +48,13 @@
                             <li><a onclick="opennav()" href="#home"
                                     class="ff_roboto navline position-relative fw-normal nav_text fs_18 lh_100 text-white ">HOME</a>
                             </li>
-                            <li><a href="#ABOUT"
+                            <li><a onclick="opennav()" href="#ABOUT"
                                     class="ff_roboto navline position-relative fw-normal nav_text fs_18 lh_100 text-white ">ABOUT
                                     US</a></li>
-                            <li><a href="#SHOP"
+                            <li><a onclick="opennav()" href="#SHOP"
                                     class="ff_roboto navline position-relative fw-normal nav_text fs_18 lh_100 text-white ">SHOP</a>
                             </li>
-                            <li><a href="#CONTACT"
+                            <li><a onclick="opennav()" href="#CONTACT"
                                     class="ff_roboto navline position-relative fw-normal nav_text fs_18 lh_100 text-white ">CONTACT
                                     US</a></li>
                         </ul>
@@ -840,36 +840,36 @@
                         Testimonial</h2>
                 </div>
                 <div class="row align-items-center">
-                    <div class="testimonial-nav padding_test d-flex align-items-center">
-                        <div class="px-lg-5 px-4 ">
+                    <div class="testimonial-nav padding_test d-flex align-items-center justify-content-center">
+                        <div class="px_29 d-flex align-items-center justify-content-center">
                             <img src="./assets/css/images/png/testimonial-img1.png" alt="testimonial-img1"
                                 class="w-100 teatimonial_img1 cursor_pointer">
                         </div>
-                        <div class="px-lg-5 px-4 ">
+                        <div class="px_29 d-flex align-items-center justify-content-center">
                             <img src="./assets/css/images/png/testimonial-img2.png" alt="testimonial-img2"
                                 class="w-100 teatimonial_img2 cursor_pointer">
                         </div>
-                        <div class="px-lg-5 px-4 ">
+                        <div class="px_29 d-flex align-items-center justify-content-center">
                             <img src="./assets/css/images/png/testimonial-img3.png" alt="testimonial-img3"
                                 class="w-100 teatimonial_img3 cursor_pointer">
                         </div>
-                        <div class="px-lg-5 px-4 ">
+                        <div class="px_29 d-flex align-items-center justify-content-center">
                             <img src="./assets/css/images/png/testimonial-img4.png" alt="testimonial-img4"
                                 class="w-100 teatimonial_img4 cursor_pointer">
                         </div>
-                        <div class="px-lg-5 px-4 ">
+                        <div class="px_29 d-flex align-items-center justify-content-center">
                             <img src="./assets/css/images/png/testimonial-img-5.png" alt="testimonial-img-5"
                                 class="w-100 teatimonial_img5 cursor_pointer">
                         </div>
-                        <div class="px-lg-5 px-4 ">
+                        <div class="px_29 d-flex align-items-center justify-content-center">
                             <img src="./assets/css/images/png/testimonial-img6.png" alt="testimonial-img6"
                                 class="w-100 teatimonial_img6 cursor_pointer">
                         </div>
-                        <div class="px-lg-5 px-4 ">
+                        <div class="px_29 d-flex align-items-center justify-content-center">
                             <img src="./assets/css/images/png/testimonial-img-7.png" alt="testimonial-img-7"
                                 class="w-100 teatimonial_img7 cursor_pointer">
                         </div>
-                        <div class="px-lg-5 px-4">
+                        <div class="px_29 d-flex align-items-center justify-content-center">
                             <img src="./assets/css/images/png/testimonial-img1.png" alt="testimonial-img1"
                                 class="w-100 teatimonial_img1 cursor_pointer">
                         </div>
@@ -1161,8 +1161,8 @@
     <!---------------------------AOS----------------------------->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
-        once: true;
+        AOS.init({ once: true, });
+
     </script>
 
     <!-------------------------navbar--------------------------->
@@ -1213,7 +1213,7 @@
                 {
                     breakpoint: 600,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 1.2,
                         slidesToScroll: 1,
                         dots: false,
                     }
@@ -1317,13 +1317,13 @@
                 {
                     breakpoint: 600,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 1,
                         slidesToScroll: 1,
                         dots: false,
                     }
                 },
                 {
-                    breakpoint: 400,
+                    breakpoint: 576,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,

@@ -401,7 +401,7 @@
 }
 
 .slick-track {
-    padding: 20px;
+    padding: 20px !important;
 }
 
 .latest_arrow {
@@ -561,10 +561,12 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.z_7{
+
+.z_7 {
     z-index: 7 !important;
 }
-.z_index_9{
+
+.z_index_9 {
     z-index: 9 !important;
 }
 
@@ -642,6 +644,11 @@
     pointer-events: none !important;
 }
 
+.px_29 {
+    padding-left: 0 !important;
+    padding-right: 29px !important;
+}
+
 @keyframes zoom-in-zoom-out {
     0% {
         transform: scale(1, 1);
@@ -699,7 +706,7 @@
     }
 
     .overflow_hiddden {
-        overflow: hidden;
+        overflow: hidden !important;
     }
 
     .mobile_view {
@@ -753,6 +760,12 @@
         top: 50%;
         background-color: white;
     }
+
+    /* 
+    .px_26 {
+        padding-left: 29px !important;
+        padding-right: 29px !important;
+    } */
 
     .py_footer {
         padding-top: 87px !important;
@@ -878,6 +891,11 @@
         padding-left: 100px;
     }
 
+    .px_29 {
+        /* padding-left: 29px !important; */
+        padding-right: 29px !important;
+    }
+
     .h_850 {
         height: 850px;
     }
@@ -938,6 +956,11 @@
 
     .ps_festival {
         padding-left: 80px;
+    }
+
+    .px_29 {
+        padding-left: 0 !important;
+        padding-right: 29px !important;
     }
 }
 
