@@ -561,6 +561,9 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.z_7{
+    z-index: 7 !important;
+}
 
 .footer_line::after {
     content: "";
