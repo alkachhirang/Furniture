@@ -645,11 +645,6 @@
     pointer-events: none !important;
 }
 
-.px_29 {
-    padding-left: 0 !important;
-    padding-right: 29px !important;
-}
-
 @keyframes zoom-in-zoom-out {
     0% {
         transform: scale(1, 1);
@@ -762,12 +757,6 @@
         background-color: white;
     }
 
-    /* 
-    .px_26 {
-        padding-left: 29px !important;
-        padding-right: 29px !important;
-    } */
-
     .py_footer {
         padding-top: 87px !important;
         padding-bottom: 81px !important;
@@ -793,8 +782,6 @@
     .mw_422 {
         max-width: 422px;
     }
-
-
     .mw_230 {
         max-width: 230px;
     }
@@ -891,10 +878,8 @@
     .ps_festival {
         padding-left: 100px;
     }
-
-    .px_29 {
-        /* padding-left: 29px !important; */
-        padding-right: 29px !important;
+    .mw_641 {
+        max-width: 1200px !important;
     }
 
     .h_850 {
@@ -957,11 +942,6 @@
 
     .ps_festival {
         padding-left: 80px;
-    }
-
-    .px_29 {
-        padding-left: 0 !important;
-        padding-right: 29px !important;
     }
 }
 
